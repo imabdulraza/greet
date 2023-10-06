@@ -47,7 +47,6 @@ const DynamicForm: React.FC = () => {
     });
 
     const onSubmit = (data: any) => {
-        debugger
         console.log(data.test)
     };
 
