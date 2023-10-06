@@ -47,7 +47,9 @@ const DynamicForm: React.FC = () => {
     });
 
     const onSubmit = (data: any) => {
-        console.log(data.test)
+        //TODO: call the api here
+        const request = data.test;
+        console.log(request);
     };
 
     return (
